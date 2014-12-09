@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Repertorio</string>
+    <string name="second_page">Seconda página</string>
+    <string name="ajout_num">Añadir un número</string>
+    <string name="Page_d_accueil">Página principal</string>
+    <string name="Page_de_repertoire">Página para rellenar datos</string>
+    <string name="Nom">Apellido</string>
+    <string name="Prenom">Nombre</string>
+    <string name="Date">Fecha de nacimiento</string>
+    <string name="Ville">Ciudad de nacimiento</string>
+    <string name="Phone">Teléfono</string>
+    <string name="OK">OK</string>
+    <string name="action_search">Menú</string>
+    <string name="buttonraz">Borrar todor</string>
+    <string name="wikipedia">Wikipedia de la ciudad</string>
+    <string name="Nouveau_client">Nueva persona</string>
+    <string name="Suppr_client">Borrar persona</string>
+    <string name="img_descrip">Descripción img</string>
+    <string name="client_page">Aplicación</string>
+    <string name="valider">Validar</string>
+    <string name="ajoutPhone">Número de teléfono</string>
+    <string name="annuler">Anular</string>
+    <string name="delete">Suprimir una persona</string>
+    <string name="msgdel">Por favor entre la posición de la persona en la lista</string>
+    <string name="born">Nacido el</string>
+    <string name="a">en </string>
+    <string name="detail">Detalles</string>
+    
+</resources>

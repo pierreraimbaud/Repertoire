@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Répertoire</string>
+    <string name="second_page">Seconde page</string>
+    <string name="ajout_num">Ajouter un numéro</string>
+    <string name="Page_d_accueil">Page d\'accueil</string>
+    <string name="Page_de_repertoire">Page de renseignement</string>
+    <string name="Nom">Nom</string>
+    <string name="Prenom">Prénom</string>
+    <string name="Date">Date de naissance</string>
+    <string name="Ville">Ville de naissance</string>
+    <string name="Phone">Telephone</string>
+    <string name="OK">OK</string>
+    <string name="action_search">Barre de menu</string>
+    <string name="buttonraz">Tout effacer</string>
+    <string name="wikipedia">Wikipedia ville</string>
+    <string name="Nouveau_client">Nouveau client</string>
+    <string name="Suppr_client">Supprimer client</string>
+    <string name="img_descrip">Description img</string>
+    <string name="client_page">Application</string>
+    <string name="valider">Valider</string>
+    <string name="ajoutPhone">Numéro de téléphone</string>
+    <string name="annuler">Annuler</string>
+    <string name="delete">Supprimer un client</string>
+    <string name="msgdel">Veuillez entrer la position du client dans la liste</string>
+    <string name="born">Né le</string>
+    <string name="a">à </string>
+    <string name="detail">Details</string>
+    
+</resources>

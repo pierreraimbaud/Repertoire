@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/honey"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.tp1.ClientActivity" >
+
+    <TextView
+        android:id="@+id/Page_d_accueil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="4dp"
+        android:layout_marginTop="4dp"
+        android:text="@string/Page_d_accueil" />
+
+    <!--
+                <Button
+                android:id="@+id/NouveauClient"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:onClick="addItem"
+                android:text="@string/Nouveau_client" />
+    -->
+
+    <Button
+        android:id="@+id/add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Page_d_accueil"
+        android:onClick="onClick"
+        android:text="@string/Nouveau_client" />
+
+    <Button
+        android:id="@+id/delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/add"
+        android:onClick="onClick"
+        android:text="@string/Suppr_client" />
+
+    <!--
+                <ListView
+                android:id="@+id/listviewperso"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_below="@+id/delete" />
+    -->
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/delete"
+        android:text="list" />
+
+</RelativeLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/Theme.AppCompat" >
+
+    <TextView
+        android:id="@+id/Nom2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="4dp"
+        android:layout_marginTop="4dp" />
+
+    <TextView
+        android:id="@+id/Prenom2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Nom2"
+        android:layout_marginBottom="4dp"
+        android:layout_marginTop="4dp" />
+
+    <TextView
+        android:id="@+id/Date2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Prenom2"
+        android:layout_marginBottom="4dp"
+        android:layout_marginTop="4dp" />
+
+    <TextView
+        android:id="@+id/Ville2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Date2"
+        android:layout_marginBottom="4dp"
+        android:layout_marginTop="4dp" />
+
+    <Button
+        android:id="@+id/valider"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Ville2"
+        android:layout_marginBottom="4dp"
+        android:text="@string/valider"
+        android:textColor="#FFFFFF" />
+
+</RelativeLayout>
